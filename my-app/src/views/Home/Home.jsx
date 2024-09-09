@@ -30,7 +30,8 @@ function Home() {
 
                 const lastFiveDaysImagesResponse = await fetchApi(`&start_date=${fiveDaysAgo}&end_date=${todaysDate}`)
                
-               
+                console.log("--------------------IMPORTANTE---------------------------")
+                console.log(lastFiveDaysImagesResponse);
                 setLastFiveDaysImages(lastFiveDaysImagesResponse)
 
             } catch (error) {
