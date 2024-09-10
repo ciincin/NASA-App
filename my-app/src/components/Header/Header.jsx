@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 container:{
     flexDirection: "row",
     alignItems: "center",
-    paddingTop: Platform.OS ==="android" && 30
+    paddingTop: Platform.OS ==="android" && 10
 },
 leftContainer:{
     flex:1,

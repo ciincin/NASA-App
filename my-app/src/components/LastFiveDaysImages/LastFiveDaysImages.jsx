@@ -6,7 +6,7 @@ function LastFiveDaysImages({ postImages }) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Last 5 Days</Text>
-            <ScrollView style={styles.content}>
+            <ScrollView >
                 {postImages?.map(postImage => {
 
                     console.log(postImage);
@@ -30,8 +30,6 @@ const styles = StyleSheet.create({
         fontSize: 16,
         marginBottom: 18,
     },
-    content: {
-
-    }
+    
 })
 export default LastFiveDaysImages
